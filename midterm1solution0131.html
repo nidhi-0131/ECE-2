@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mid-Term 1: Solution</title>
+</head>
+<body>
+  <form target="_blank" name="Bio-data"></form>
+  <fieldset align="center">
+    <h2><b>Hotel Room Booking Form</b></h2>
+    <!--Name-->
+    <label for="name">Full Name: </label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required> <br><br>
+    <!--Email-->
+    <label for="email">Email: </label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required> <br><br>
+    <!--Phone-->
+    <label for="phone">Phone: </label>
+    <input type="tel" id="tel" name="tel" placeholder="Enter your phone number" maxlength="10" required> <br><br>
+    <!--Check-in Date-->
+    <label for="check-in-date">Check-in Date: </label> 
+    <input type="date" id="check-in-date" name="check-in-date" placeholder="Enter Check-in Date" required> <br><br>
+    <!--Check-out Date-->
+    <label for="check-out-date">Check-out Date: </label>
+    <input type="date" id="check-out-date" name="check-out-date" placeholder="Enter Check-out Date" required> <br><br>
+    <!--Room type-->
+    <label for="room-type">Room Type: </label>
+    <select name="room-type" id="room-type">
+      <option>Select</option>
+      <optgroup label="Non-AC">
+        <option>Single</option>
+        <option>Double</option>
+        <option>Triple</option>
+      </optgroup>
+      <optgroup label="AC">
+        <option>Single</option>
+        <option>Double</option>
+      </optgroup>
+    </select> <br><br>
+    <!--Number of Guests-->
+    <label for="num. of guest">Number of Guests: </label>
+    <input type="number" id="guest num" placeholder="Enter the number" required> <br><br>
+    <!--Requests-->
+    <label for="requests">Special Requests: </label>
+    <textarea id="request" name="request" placeholder="Write here." rows="5" cols="50"></textarea> <br><br>
+    <!--Submission-->
+    <input type="submit">
+    <input type="reset"> <br><br>
+    </fieldset>
+</body>
+</html>
