@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4</title>
+</head>
+<body>
+    <form action="" target="_blank" name="Biodata" method=""></form>
+    <fieldset align="center">
+        <h2>Hotel Room Booking-Form</h2>
+        <!--Name-->
+         <label for="name">Full Name: </label>
+         <input type="text" id="name" name="name" placeholder="Enter Name" required> <br><br>
+        <!--Email-->
+         <label for="email">Email: </label>
+         <input type="email" id="email" name="email" placeholder="Enter your email" required> <br><br>
+        <!--Phone-->
+         <label for="phone">Phone: </label>
+         <input type="tel" id="tel" name="tel" placeholder="Enter your Phone number" maxlength="10" required> <br><br>
+        <!--Check-in-->
+         <label for="check-in-date">Check-in Date: </label>
+         <input type="date" id="check-in-date" name="check-in-date" value="check-in-date" required> <br><br>
+        <!--Check-out-->
+         <label for="check-out-date">Check-out Date: </label>
+         <input type="date" id="check-out-date" name="check-out-date" value="check-out-date" required> <br><br>
+        <!--Room Type-->
+         <label for="roomType">Room Type: </label>
+         <select name="roomType" id="roomType">
+             <option>Select</option>
+             <optgroup label="Non-AC">
+                 <option value="1">Single</option>
+                 <option value="2">Double</option>
+                 <option value="3">Triple</option>
+             </optgroup>
+             <optgroup label="AC">
+                 <option value="1">Single</option>
+                 <option value="2">Double</option>
+             </optgroup>
+         </select> <br><br>
+        <!--Number of Guests-->
+         <label for="num. of guest">Number of Guests: </label>
+         <input type="number" id="guest num" name="Enter the number" required> <br><br>
+        <!--Requests-->
+         <label for="requests">Special Requests: </label><br>
+         <textarea id="request" name="request" placeholder="Write here." rows="5" cols="50"></textarea> <br><br>
+        <!--Submission-->
+         <input type="submit" value="Book Now">
+         <input type="reset" value="Reset Form"> <br><br>
+    </fieldset>
+</body>
+</html>
